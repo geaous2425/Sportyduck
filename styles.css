@@ -68,6 +68,44 @@ header nav .cart-icon {
     transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
 }
 
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.search-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #2980b9;
+}
+
 /* Hero Section */
 .hero {
     background-image: url('1.jpg');

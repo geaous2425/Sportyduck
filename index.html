@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportyducks - Tu Tienda de Ropa Deportiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+        
+            <h1 class="hover-box">Sportyducks</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <a href="/cart" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Tu Estilo Deportivo</h2>
+            <p>Ropa diseñada para destacar. Inspirada en el movimiento.</p>
+            <a href="#products" class="btn">Explorar Productos</a>
+        </div>
+    </section>
+
+    <section id="products" class="container">
+        <h2>Productos Destacados</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="imagenes/4.jpeg" alt="Top deportivo" class="responsive-image">
+                <h3> Top deportivo + Leggings</h3>
+                <p>$29.99</p>
+                <button class="buy-btn">Comprar Ahora</button>
+            </div>
+            <div class="product">
+                <img src="imagenes/2.webp" alt="Pantalones deportivos" class="responsive-image">
+                <h3>Sports Pants</h3>
+                <p>$49.99</p>
+                <button class="buy-btn">Comprar Ahora</button>
+            </div>
+            <div class="product">
+                <img src="imagenes/3.webp" alt="Zapatillas deportivas" class="responsive-image">
+                <h3>Running Shoes</h3>
+                <p>$79.99</p>
+                <button class="buy-btn">Comprar Ahora</button>
+            </div>
+        </div>
+    </section>
+
+<section id="about" class="container">
+    <h2>Sobre Nosotros</h2>
+    <p>Sportyducks es una marca dedicada a ofrecer ropa deportiva de alta calidad diseñada para jóvenes activos. 
+       Nuestros productos combinan estilo y funcionalidad para inspirar movimiento y confianza.</p>
+   
+</section>
+
+
+<section id="contact" class="container">
+    <h2>Contacto</h2>
+    <form class="contact-form">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+</section>
+
+    <footer>
+        <p>&copy; 2024 Sportyducks. Diseñado con pasión.</p>
+        <div class="footer-icons">
+            <a href="https://facebook.com" target="_blank" class="icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com" target="_blank" class="icon"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
